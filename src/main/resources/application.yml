@@ -1,0 +1,14 @@
+config:
+  hello: Hello
+
+endpoints:
+  health:
+    sensitive: false
+
+security:
+  basic:
+    enabled:  false
+
+management:
+  security:
+    enabled: false

@@ -1,0 +1,10 @@
+---
+applications:
+- name: SpringCloudConfig
+  memory: 768M
+  path: ./target/SpringCloudConfig-0.0.1-SNAPSHOT.jar
+  timeout: 60
+  services:
+  - config-server
+  env:
+    TRUST_CERTS: cfapps.pez.pivotal.io

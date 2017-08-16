@@ -19,4 +19,10 @@ Server error, status code: 502, error code: 10001, message: The service broker r
 cf update-service -c '{"git": { "uri": "https://github.com/phopper-pivotal/SpringCloudConfig/config-repo/", "label": "develop" } }' config-server
 ```
 
+`cf push`
+
+The manifest is set to bind to the service instance created in a previous step. Additionally, if you have CA signed certs you will need to remove the `env` from the *manifest.yml*.
+
+
+
 
