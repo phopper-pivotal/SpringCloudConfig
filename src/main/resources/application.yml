@@ -1,5 +1,8 @@
-config:
-  hello: Hello
+label: Good Day
+config.hello: Hello
+
+spring:
+  profiles: dev,cloud
 
 endpoints:
   health:

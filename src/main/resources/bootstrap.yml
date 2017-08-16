@@ -1,3 +1,8 @@
 spring:
   application:
     name: SpringCloudConfig
+
+#spring:
+#  cloud:
+#    config:
+#      label: v1.2
