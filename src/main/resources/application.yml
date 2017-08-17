@@ -3,6 +3,12 @@ config.hello: Hello
 
 spring:
   profiles: dev,cloud
+#  cloud:
+#    config:
+#      watch:
+#        enabled: true
+#        delay: 5000
+#        initialDelay: 5000
 
 endpoints:
   health:

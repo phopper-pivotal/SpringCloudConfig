@@ -1,6 +1,12 @@
 spring:
   application:
     name: SpringCloudConfig
+  cloud:
+    config:
+      watch:
+        enabled: true
+        delay: 5000
+        initialDelay: 5000
 
 #spring:
 #  cloud:
