@@ -1,4 +1,4 @@
-label: Good Day
+#label: Good Day
 config.hello: Hello
 
 spring:
